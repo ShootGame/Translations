@@ -1,0 +1,39 @@
+<translations>
+    <arcade>
+    </arcade>
+    <commons>
+        <bungee.connecting>Łączenie z serwerem {0}...</bungee.connecting>
+    </commons>
+    <lobby>
+        <hider.hide>Ukryto wszystkich graczy.</hider.hide>
+        <hider.item>Widoczność graczy</hider.item>
+        <hider.join.enderpearl>Kliknij w oko kresu, aby ich pokazać.</hider.join.enderpearl>
+        <hider.join.hide>Wszyscy gracze są ukryci.</hider.join.hide>
+        <hider.name>Ukrywacz Graczy</hider.name>
+        <hider.show>Pokazano wszystkich graczy.</hider.show>
+        <restart.countdowns>Restartowanie serwera nastąpi za {0} sekund...</restart.countdowns>
+        <restart.disconnect>Restartowanie serwera - zaloguj się ponownie</restart.disconnect>
+        <tutorial.next>Aby przejść dalej kliknij lewy przycisk myszy.</tutorial.next>
+    </lobby>
+    <punishments>
+    </punishments>
+    <shootbungee>
+        <hub.already>Już znajdujesz się na {0}!</hub.already>
+        <hub.connecting>Przełączanie na serwer {0}...</hub.connecting>
+        <hub.display>Lobby</hub.display>
+        <motd.static.edit>Nie można edytować statycznego MOTD.</motd.static.edit>
+    </shootbungee>
+    <shootgame>
+        <command.server.current>Obecnie znajdujesz się na {0}.</command.server.current>
+        <command.server.current-console>Ten serwer to {0}.</command.server.current-console>
+        <command.server.list>Aby wyswietlić listę serwerów użyj /serwery.</command.server.list>
+        <command.server.not-found>Serwer "{0}" nie został znaleziony.</command.server.not-found>
+        <command.server.offline>Serwer "{0}" jest wyłączony.</command.server.offline>
+        <command.server.permission>Nie posiadasz dostepu do serwera {0}.</command.server.permission>
+        <command.servers.connect>Aby przejść na dany serwer użyj /serwer [nazwa]</command.servers.connect>
+        <command.servers.hidden>Ukryty</command.servers.hidden>
+        <command.servers.title>Dostępne serwery ShootGame</command.servers.title>
+        <listeners.join>{0} dołączył/a na serwer</listeners.join>
+        <listeners.quit>{0} opuścił/a serwer</listeners.quit>
+    </shootgame>
+</translations>
