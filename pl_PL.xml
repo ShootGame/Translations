@@ -1,8 +1,12 @@
-<translations>
+<locale code="pl" full="polski">
     <arcade>
     </arcade>
     <commons>
-        <bungee.connecting>Łączenie z serwerem {0}...</bungee.connecting>
+        <bungee.connecting>Łączenie z {0}...</bungee.connecting>
+        <command.error>{0}</command.error>
+        <command.number>Musisz podać liczbę, nie ciąg znaków!</command.number>
+        <command.permission>Nie posiadasz uprawnień.</command.permission>
+        <command.severe>Wykryto niespodziewany błąd {0} - powiadom o tym administrację!</command.severe>
     </commons>
     <lobby>
         <hider.hide>Ukryto wszystkich graczy.</hider.hide>
@@ -11,7 +15,7 @@
         <hider.join.hide>Wszyscy gracze są ukryci.</hider.join.hide>
         <hider.name>Ukrywacz Graczy</hider.name>
         <hider.show>Pokazano wszystkich graczy.</hider.show>
-        <restart.countdowns>Restartowanie serwera nastąpi za {0} sekund...</restart.countdowns>
+        <restart.countdown>Restartowanie serwera nastąpi za {0} sekund...</restart.countdown>
         <restart.disconnect>Restartowanie serwera - zaloguj się ponownie</restart.disconnect>
         <tutorial.next>Aby przejść dalej kliknij lewy przycisk myszy.</tutorial.next>
     </lobby>
@@ -21,6 +25,12 @@
         <hub.already>Już znajdujesz się na {0}!</hub.already>
         <hub.connecting>Przełączanie na serwer {0}...</hub.connecting>
         <hub.display>Lobby</hub.display>
+        <motd.info.class>Klasa: {0}</motd.info.class>
+        <motd.info.editable>Edytowalność: {0}</motd.info.editable>
+        <motd.info.type>Typ: {0}</motd.info.type>
+        <motd.info.value>Wartość: {0}</motd.info.value>
+        <motd.list>- {0} - {1} | edytowalność: {2} | {3} zmian/y</motd.list>
+        <motd.show>Poniżej znajduje się MOTD {0}: {1}</motd.show>
         <motd.static.edit>Nie można edytować statycznego MOTD.</motd.static.edit>
     </shootbungee>
     <shootgame>
@@ -36,4 +46,12 @@
         <listeners.join>{0} dołączył/a na serwer</listeners.join>
         <listeners.quit>{0} opuścił/a serwer</listeners.quit>
     </shootgame>
-</translations>
+    <simple>
+        <false>fałsz</false>
+        <no>nie</no>
+        <off>wyłączone</off>
+        <on>włączone</on>
+        <true>prawda</true>
+        <yes>tak</yes>
+    </simple>
+</locale>

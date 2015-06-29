@@ -1,8 +1,12 @@
-<translations>
+<locale code="en" full="English">
     <arcade>
     </arcade>
     <commons>
-        <bungee.connecting>Laczenie z serwerem {0}...</bungee.connecting>
+        <bungee.connecting>Laczenie z {0}...</bungee.connecting>
+        <command.error>{0}</command.error>
+        <command.number>Musisz podac liczbe, nie ciag znakow!</command.number>
+        <command.permission>Nie posiadasz uprawnien.</command.permission>
+        <command.severe>Wykryto niespodziewany blad {0} - powiadom o tym administracje!</command.severe>
     </commons>
     <lobby>
         <hider.hide>Ukryto wszystkich graczy.</hider.hide>
@@ -11,7 +15,7 @@
         <hider.join.hide>Wszyscy gracze sa ukryci.</hider.join.hide>
         <hider.name>Hider</hider.name>
         <hider.show>Pokazano wszystkich graczy.</hider.show>
-        <restart.countdowns>Restartowanie serwera nastapi za {0} sekund...</restart.countdowns>
+        <restart.countdown>Restartowanie serwera nastapi za {0} sekund...</restart.countdown>
         <restart.disconnect>Restartowanie serwera - zaloguj sie ponownie</restart.disconnect>
         <tutorial.next>Aby przejsc dalej kliknij LPM.</tutorial.next>
     </lobby>
@@ -21,6 +25,12 @@
         <hub.already>Juz znajdujesz sie na {0}!</hub.already>
         <hub.connecting>Przelaczanie na serwer {0}...</hub.connecting>
         <hub.display>Lobby</hub.display>
+        <motd.info.class>Klasa: {0}</motd.info.class>
+        <motd.info.editable>Edytowalnosc: {0}</motd.info.editable>
+        <motd.info.type>Typ: {0}</motd.info.type>
+        <motd.info.value>Wartosc: {0}</motd.info.value>
+        <motd.list>- {0} - {1} edytowalnosc: {2} {3} zmian/y</motd.list>
+        <motd.show>Ponizej znajduje sie MOTD {0}: {1}</motd.show>
         <motd.static.edit>Nie mozna edytowac statycznego MOTD.</motd.static.edit>
     </shootbungee>
     <shootgame>
@@ -36,4 +46,12 @@
         <listeners.join>{0} dolaczyl/a na serwer</listeners.join>
         <listeners.quit>{0} opuscil/a serwer</listeners.quit>
     </shootgame>
-</translations>
+    <simple>
+        <false>falsz</false>
+        <no>nie</no>
+        <off>wylaczone</off>
+        <on>wlaczone</on>
+        <true>prawda</true>
+        <yes>tak</yes>
+    </simple>
+</locale>
